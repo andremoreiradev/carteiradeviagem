@@ -7,8 +7,9 @@ body {
     background-image:url(https://images.pexels.com/photos/4070537/pexels-photo-4070537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center 0cm; 
+    background-position: center; 
 }
+
 
 
 h1 {
@@ -53,15 +54,22 @@ h1 {
     
   }
   
+  .foto {
+    height: 100px;
+    width: 192px;
+    display: flex;
+
+  }
   .container-2 {
     display: flex;
     justify-content: center;
+    padding: 16px;
   
   }
   
   .container-2 h1 {
-    text-align: left;
-    margin-left: 5vh;
+    margin-left: 5px;
+    
   }
   
   .valor h2 {
