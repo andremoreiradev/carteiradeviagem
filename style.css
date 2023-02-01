@@ -7,7 +7,15 @@ body {
     background-image:url(https://images.pexels.com/photos/4070537/pexels-photo-4070537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: right; 
+    overflow: hidden;
+    min-height: 99vh;
+    min-width: 100vh;
+  background-repeat: no-repeat;
+    font-weight: normal;
+  display: flex;
+   justify-content:center;
+   position:unset;
 }
 
 
@@ -45,6 +53,7 @@ h1 {
   .carteira {
     display: flex;
     justify-content: center;
+
   }
   
   .carteira img {
@@ -55,46 +64,54 @@ h1 {
   }
   
   .foto {
-    height: 100px;
-    width: 192px;
-    display: flex;
+    height: 80px;
+    width: 80px;
+    object-fit:unset;
+    display:flex;
+    border-radius: 1%;
+    border: 5px solid rgb(15, 4, 4);
+    padding: 0px;
+    margin-left: 0%;
 
   }
   .container-2 {
     display: flex;
-    justify-content: center;
-    padding: 16px;
+    justify-content:center;
+    padding: 32px;
+    margin: left 8px;
   
   }
   
   .container-2 h1 {
-    margin-left: 5px;
+    margin-left: 0px;
+    padding: 0px;
+
     
   }
   
   .valor h2 {
   position: absolute;
   left: 10px;
-  bottom: -11px;
+  bottom: 11px;
   }
   
   .saldo {
-    width: 540px;
-    height: 52px;
+    width: 450px;
+    height: 50px;
     background: rgba(0, 0, 3, 0.32);
-    border-radius: 13px;
-    margin-top: 4vh;
+    border-radius: 18px;
+    margin-top: 0px;
   }
   
   .valor {
-    position: absolute;
-    width: 251px;
-    height: 33px;
+    position:sticky;
+    width: 150px;
+    height: 30px;
     bottom: 64.2vh;
-    right: 72vh;
-    
+    right: 70vh;
+    padding: 5px;    
     background: rgba(255, 255, 255, 0.45);
-    border-radius: 5px;
+    border-radius: 20px;
   }
   
   .flex {
