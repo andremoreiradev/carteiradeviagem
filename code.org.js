@@ -4,7 +4,7 @@ export const onEvent = (id, event, fn) => {
         el.addEventListener(event, fn, false);
     }
   }; 
-  export const showElement = (id) => {
+  export const showElement = (id) =>  {
     const el = document.getElementById(id);
     if (el) {
         el.classList.remove('hidden');
