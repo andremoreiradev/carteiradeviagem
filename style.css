@@ -91,7 +91,7 @@ h1 {
   
   .valor h2 {
   position: sticky;
-  left: 50px;
+  left: 100px;
   bottom: 11px;
   }
   
@@ -105,14 +105,14 @@ h1 {
   
   .valor {
     position:sticky;
-    width: 150px;
-    height: 35px;
+    width: 180px;
+    height: 30px;
     bottom: 64.2vh;
-    right: 65vh;
-    padding: 5px;    
+    right: 95vh;
+    padding: 7px;    
     background: rgba(255, 255, 255, 0.45);
-    border-radius: 20px;
-  }
+    border-radius: 15px;
+      }
   
   .flex {
   display: flex;
@@ -143,6 +143,7 @@ h1 {
     font-family: 'Monument';
     text-align: center;
     letter-spacing: 2px;
+    
   }
   
   button{
@@ -158,12 +159,13 @@ h1 {
   }
   
   footer{
-    padding-top: 30px;
+    padding-top: 45px;
     display: flex; 
     justify-content: space-evenly; 
     bottom: 150px;
-    gap: 20px;
+    gap: 40px;
     margin-top: 60px;
+    padding: 80px;
   }
   
   footer button{
