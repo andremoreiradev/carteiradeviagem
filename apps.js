@@ -22,7 +22,7 @@ import {
   
   // definir o valor que cada item custa
   const Alimentação = 18.00; 
-  const programação = 15.00; 
+  const Programação = 15.00; 
   const Diversão = 13.00; 
   
   
