@@ -77,38 +77,38 @@ h1 {
   .container-2 {
     display: flex;
     justify-content:center;
-    padding: 32px;
-    margin: left 8px;
+    padding: 28px;
+    margin: left 7px;
   
   }
   
   .container-2 h1 {
-    margin-left: 0px;
-    padding: 0px;
+    margin-left: 5px;
+    padding: 1px;
 
     
   }
   
   .valor h2 {
-  position: absolute;
-  left: 10px;
+  position: sticky;
+  left: 50px;
   bottom: 11px;
   }
   
   .saldo {
-    width: 450px;
-    height: 50px;
-    background: rgba(0, 0, 3, 0.32);
-    border-radius: 18px;
-    margin-top: 0px;
+    width: 440px;
+    height: 52px;
+    background: rgba(12, 12, 158, 0.32);
+    border-radius: 50px;
+    margin-top: -4px;
   }
   
   .valor {
     position:sticky;
     width: 150px;
-    height: 30px;
+    height: 35px;
     bottom: 64.2vh;
-    right: 70vh;
+    right: 65vh;
     padding: 5px;    
     background: rgba(255, 255, 255, 0.45);
     border-radius: 20px;
@@ -126,7 +126,7 @@ h1 {
   width: 103px;
   height: 90px;
   
-  background: #EBEBEB;
+  background: #000000;
   border-radius: 8px;
   }
   
@@ -168,7 +168,7 @@ h1 {
   
   footer button{
   
-  background: rgba(0, 0, 3, 0.32);
+  background: rgba(9, 9, 12, 0.32);
   border-radius: 13px;
   border-radius: .75rem;
   box-sizing: border-box;
@@ -178,7 +178,6 @@ h1 {
   font-family: 'Monument';
   font-size: 1.2rem;
   font-weight: 600;
-  
   padding: 10px 74px;
   text-align: center;
   

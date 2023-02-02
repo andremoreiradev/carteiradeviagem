@@ -21,9 +21,9 @@ import {
   
   
   // definir o valor que cada item custa
-  const COMIDA = 18.00; 
-  const CIRCO = 15.00; 
-  const BRINQUEDO = 13.00; 
+  const Alimentação = 18.00; 
+  const programação = 15.00; 
+  const Diversão = 13.00; 
   
   
   // incluir o valor informado para gastos na carteira
@@ -31,24 +31,24 @@ import {
   
   
   // cada vez que o botão for clicado ele deve: 
-  onEvent("comida","click", () => {
-    carteira -= COMIDA; // reduzir o valor que foi declarado na variável
-    alert("Você gastou R$" + COMIDA + " com comida!"); // informar ao usuário que ouve uma transação
-    extrato += "R$" + COMIDA + " gastos com comida \n"; // armazenar em extrato o que está sendo gasto
+  onEvent("Alimentação","click", () => {
+    carteira -= Alimentação; // reduzir o valor que foi declarado na variável
+    alert("Você gastou R$" + Alimentação + " com comida!"); // informar ao usuário que ouve uma transação
+    extrato += "R$" + Alimentação + " gastos com comida \n"; // armazenar em extrato o que está sendo gasto
     atualizaCarteiraEalertaUsuario();
   });
   
-  onEvent("brinquedo","click", () => {
-    carteira -= BRINQUEDO;
-    alert("Você gastou R$" + BRINQUEDO + " com brinquedo!");    
-    extrato += "R$" + BRINQUEDO + " gastos com brinquedo \n"; 
+  onEvent("Diversão","click", () => {
+    carteira -= Diversão;
+    alert("Você gastou R$" + Diversão + " com brinquedo!");    
+    extrato += "R$" + Diversão + " gastos com brinquedo \n"; 
     atualizaCarteiraEalertaUsuario();
   });
   
-  onEvent("circo","click", () => {
-    carteira -= CIRCO; 
-    alert("Você gastou R$" + CIRCO + " com circo!");    
-    extrato += "R$" + CIRCO + " gastos com circo \n"; 
+  onEvent("Programação","click", () => {
+    carteira -= Programação; 
+    alert("Você gastou R$" + Programação + " com circo!");    
+    extrato += "R$" + Programação + " gastos com circo \n"; 
     atualizaCarteiraEalertaUsuario();
   });
   
@@ -64,9 +64,9 @@ import {
    document.querySelector("body").style.background= "linear-gradient(to left, #660000, #990000, #ff0000)"; 
    document.querySelector("#go-extrato").style.background= "linear-gradient(to left, #660000, #990000, #ff0000)";
    document.querySelector("#reset").style.background= "linear-gradient(to left, #660000, #990000, #ff0000)";
-   document.querySelector("#comida").style.background= "linear-gradient(to left, #660000, #990000, #ff0000)";  
-   document.querySelector("#circo").style.background= "linear-gradient(to left, #660000, #990000, #ff0000)";  
-   document.querySelector("#brinquedo").style.background= "linear-gradient(to left, #660000, #990000, #ff0000)"; 
+   document.querySelector("#Alimentação").style.background= "linear-gradient(to left, #660000, #990000, #ff0000)";  
+   document.querySelector("#Programação").style.background= "linear-gradient(to left, #660000, #990000, #ff0000)";  
+   document.querySelector("#Diversão").style.background= "linear-gradient(to left, #660000, #990000, #ff0000)"; 
    
   }
 
