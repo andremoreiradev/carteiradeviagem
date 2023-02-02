@@ -31,21 +31,21 @@ import {
   
   
   // cada vez que o botão for clicado ele deve: 
-  onEvent("Alimentação","click", () => {
+  onEvent("comida","click", () => {
     carteira -= Alimentação; // reduzir o valor que foi declarado na variável
     alert("Você gastou R$" + Alimentação + " com comida!"); // informar ao usuário que ouve uma transação
     extrato += "R$" + Alimentação + " gastos com comida \n"; // armazenar em extrato o que está sendo gasto
     atualizaCarteiraEalertaUsuario();
   });
   
-  onEvent("Diversão","click", () => {
+  onEvent("brinquedo","click", () => {
     carteira -= Diversão;
     alert("Você gastou R$" + Diversão + " com brinquedo!");    
     extrato += "R$" + Diversão + " gastos com brinquedo \n"; 
     atualizaCarteiraEalertaUsuario();
   });
   
-  onEvent("Programação","click", () => {
+  onEvent("circo","click", () => {
     carteira -= Programação; 
     alert("Você gastou R$" + Programação + " com circo!");    
     extrato += "R$" + Programação + " gastos com circo \n"; 
@@ -64,9 +64,9 @@ import {
    document.querySelector("body").style.background= "linear-gradient(to left, #660000, #990000, #ff0000)"; 
    document.querySelector("#go-extrato").style.background= "linear-gradient(to left, #660000, #990000, #ff0000)";
    document.querySelector("#reset").style.background= "linear-gradient(to left, #660000, #990000, #ff0000)";
-   document.querySelector("#Alimentação").style.background= "linear-gradient(to left, #660000, #990000, #ff0000)";  
-   document.querySelector("#Programação").style.background= "linear-gradient(to left, #660000, #990000, #ff0000)";  
-   document.querySelector("#Diversão").style.background= "linear-gradient(to left, #660000, #990000, #ff0000)"; 
+   document.querySelector("#comida").style.background= "linear-gradient(to left, #660000, #990000, #ff0000)";  
+   document.querySelector("#circo").style.background= "linear-gradient(to left, #660000, #990000, #ff0000)";  
+   document.querySelector("#brinquedo").style.background= "linear-gradient(to left, #660000, #990000, #ff0000)"; 
    
   }
 
