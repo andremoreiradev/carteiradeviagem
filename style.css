@@ -30,11 +30,11 @@ h1 {
   
   h2 {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: normal;
-    text-align:left;
-  
+    text-align:center;
     
+  
   }
   
   .container {  
@@ -105,10 +105,10 @@ h1 {
   
   .valor {
     position:sticky;
-    width: 180px;
-    height: 30px;
+    width: 150px;
+    height: 25px;
     bottom: 64.2vh;
-    right: 95vh;
+    right: 70vh;
     padding: 7px;    
     background: rgba(255, 255, 255, 0.45);
     border-radius: 15px;
