@@ -93,7 +93,7 @@ h1 {
   position: sticky;
   left: 100px;
   bottom: 11px;
-  }
+    }
   
   .saldo {
     width: 440px;
@@ -108,7 +108,7 @@ h1 {
     width: 150px;
     height: 25px;
     bottom: 64.2vh;
-    right: 70vh;
+    right: 95vh;
     padding: 7px;    
     background: rgba(255, 255, 255, 0.45);
     border-radius: 15px;
