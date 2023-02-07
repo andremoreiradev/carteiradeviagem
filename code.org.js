@@ -2,8 +2,8 @@ export const onEvent = (id, event, fn) => {
     const el = document.getElementById(id);
     if (el) {
         el.addEventListener(event, fn, false);
-    }
-  }; 
+    }; }
+  
   export const showElement = (id) =>  {
     const el = document.getElementById(id);
     if (el) {
@@ -47,3 +47,7 @@ export const onEvent = (id, event, fn) => {
         el.setAttribute('src', url);
     }
   };
+
+  export function setContent (id, content) {
+    document.getElementById(id).innerHTML = content;
+  }
