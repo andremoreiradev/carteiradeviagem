@@ -35,7 +35,7 @@ import {
   // cada vez que o botão for clicado ele deve: 
   onEvent("comida","click", () => {
     carteira -= Alimentação; // reduzir o valor que foi declarado na variável
-    alert("Você gastou R$" + Alimentação + " com comida!"); // informar ao usuário que ouve uma transação
+     // informar ao usuário que ouve uma transação
     extrato += "R$" + Alimentação + " gastos com comida \n"; // armazenar em extrato o que está sendo gasto
     atualizaCarteiraEalertaUsuario(); 
     let transacao = {
@@ -49,7 +49,6 @@ import {
   
   onEvent("brinquedo","click", () => {
     carteira -= Diversão;
-    alert("Você gastou R$" + Diversão + " com brinquedo!");    
     extrato += "R$" + Diversão + " gastos com brinquedo \n"; 
     atualizaCarteiraEalertaUsuario();
     let transacao = {
@@ -63,7 +62,6 @@ import {
   
   onEvent("circo","click", () => {
     carteira -= Programação; 
-    alert("Você gastou R$" + Programação + " com circo!");    
     extrato += "R$" + Programação + " gastos com circo \n"; 
     atualizaCarteiraEalertaUsuario();
     let transacao = {
