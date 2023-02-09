@@ -106,9 +106,9 @@ h1 {
   .valor {
     position:sticky;
     width: 150px;
-    height: 25px;
+    height: 30px;
     bottom: 64.2vh;
-    right: 95vh;
+    right: 75vh;
     padding: 7px;    
     background: rgba(255, 255, 255, 0.45);
     border-radius: 15px;
